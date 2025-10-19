@@ -3,7 +3,7 @@ This repository contains two annotated datasets, created and augmented with Robo
 Repository Contents
 1. eye-detection.zip (Download: [eye-detection.zip](https://github.com/et20024/Surveillance-monitoring-model-based-on-gaze-direction-tracking-/releases/download/v1.0-datasets/eye-detection.zip))
    
-Annotated dataset for eye region detection. Images are split into train / val / test. For every image, the corresponding label file is a YOLOv8 .txt containing bounding‑box coordinates (one line per object) in the format: <class_id> <x_center> <y_center> <width> <height>. All coordinates are normalized to [0, 1] relative to image width/height.
+Annotated dataset for eye region detection. Images are split into train / val / test. For every image, the corresponding label file is a YOLOv8 .txt containing bounding‑box coordinates (one line per object) in the format: \<class_id\> \<x_center\> \<y_center\> \<width\> \<height\>. All coordinates are normalized to [0, 1] relative to image width/height.
 
 2. gaze-classification.zip (Download: [gaze-classification.zip](https://github.com/et20024/Surveillance-monitoring-model-based-on-gaze-direction-tracking-/releases/download/v1.0-datasets/gaze-classification.zip))
    
